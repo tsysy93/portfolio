@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.3s;
+    margin-top: 0;
+    background-image: url("ee.png");
+    background-size: cover;
+    line-height: 80px;
+    overflow: hidden;
+    display: flex;  /* Ajout de flexbox pour aligner les éléments */
+    flex-direction: column;  /* Aligner les éléments en colonne */
+    justify-content: center;  /* Centrer verticalement les éléments */
+    align-items: center;  /* Centrer horizontalement les éléments */
+    
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar li {
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgba(209, 209, 209, 0.715);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 24px;
+    font-family: cursive;
+    
+}
+
+.sidebar a:hover {
+    color: #eceef0;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-top: -100px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.sidebar #scrollToTopBtn {
+    font-size: 50px; /* Adjust this value to change the size of the up arrow */
+}
+
+.sidebar .inner-bar {
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+.center-container {
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("ss.png");
+    background-size: cover;
+    font-family: 'Press Start 2P';
+    font-size: 29px;
+    
+}
+
+
+.center-container .logo {
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 19%;
+}
+
+.center-container .logo:hover {
+    color: #ffffff;
+}
+
+.contenu-texte{
+    margin-left: 19%;
+}
+
+
+
+
+.contenu-texte #accueil{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 93, 203)
+}
+
+.contenu-texte .content-section #presentation{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+    
+}
+
+.contenu-texte .content-section #cv{
+    
+    width: 450px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+    
+}
+
+.contenu-texte .content-section .boutonimprimer{
+    background-color :rgba(80, 63, 205, 0.5);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    }
+
+
+
+
+
+
+
+.contenu-texte #competence{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 93, 203)
+}
+
+
+
+.contenu-texte .center-container{
+    margin-right: 140%;
+}
+
+
+
+
+
+
+.contenu-texte #projets{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 93, 203)
+}
+
+
+.contenu-texte .content-section #boutonimprimerp1{
+    background-color :rgba(33, 9, 98, 0.5);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+}
+
+.contenu-texte .content-section #boutonimprimerp2{
+    background-color :rgba(33, 9, 98, 0.5);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+}
+
+.contenu-texte .content-section #boutonimprimerp3{
+    background-color :rgba(33, 9, 98, 0.5);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+}
+
+
+.contenu-texte .content-section #boutonimprimerp4{
+    background-color :rgba(33, 9, 98, 0.5);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.contenu-texte #veille{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 93, 203)
+
+}
+.contenu-texte #titreveille{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 25px;    
+    border: 2px solid rgba(118, 18, 240, 0.849); /* Bordure de 2 pixels, couleur grise */
+            padding: 10px; /* Marge intérieure de 10 pixels */
+            width: 22%; /* Largeur du cadre, ajustez selon vos besoins */
+}
+
+
+
+.contenu-texte #veu{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+}
+
+
+
+.contenu-texte .content-section #veilleg{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+    
+}
+
+
+
+
+.contenu-texte .content-section #popo{
+    background-color :rgba(33, 9, 98, 0.5);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+
+
+.contenu-texte .content-section #papa{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+}
+.contenu-texte .content-section #papa1{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+}
+
+.contenu-texte .content-section #papa2{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+}
+
+
+.contenu-texte .content-section #imagev{
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenu-texte #contact{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 93, 203)
+}
+
+.contenu-texte #linkedin {
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+    background-color: #0000004f;
+    color: #fff;
+  }
+  
