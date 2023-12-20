@@ -161,13 +161,13 @@
                         <img class="card2" src="sereur.jpeg" alt="serveur">
                         <div class="card-body">
                             <br><br><br>
-                            <button id= "boutonimprimerp2" onclick="ouvrirp2()">Serveur Mutualisé</button>        
+                            <button id= "boutonimprimerp2" onclick="ouvrirp2()">Creation du Portfolio</button>        
                         </div>
                         
                         <script>
                             function ouvrirp2() {
                                 // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
-                                var lienCV = 'cv_Tourab.pdf';
+                                var lienCV = 'creation-portfolio.pdf';
                     
                                 // Ouvrir une nouvelle fenêtre avec le CV
                                 window.open(lienCV, '_blank');
@@ -198,16 +198,32 @@
                                         <br><br>
                             
                     <div class="card" style="width: 15rem;">
-                        <img class="card4" src="audit.jpg" alt="Audit">
-                        <br><br>
-                        <button id= "boutonimprimerp4" onclick="ouvrirp4()">Audit de parc Informatique &#40;Stage 1er année&#41;</button>     
-                           
-                    </div>
+                        <img class="card4" src="77.jpg" alt="77">
+                        <div class="card-body">
+                        <button id= "boutonimprimerp4" onclick="ouvrirp4()">TP-SEVEN</button>        
+                        </div>
                         
                         <script>
                             function ouvrirp4() {
                                 // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
-                                var lienCV = 'cv_Tourab.pdf';
+                                var lienCV = 'tp-seven.pdf';
+                    
+                                // Ouvrir une nouvelle fenêtre avec le CV
+                                window.open(lienCV, '_blank');
+                            }
+                        </script>
+                    </div>
+                    <div class="card" style="width: 15rem;">
+                        <img class="card5" src="audit.jpg" alt="Audit">
+                        <br><br>
+                        <button id= "boutonimprimerp5" onclick="ouvrirp5()">Audit stage</button>     
+                           
+                    </div>
+                        
+                        <script>
+                            function ouvrirp5() {
+                                // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                                var lienCV = 'audit-stage.pdf';
                     
                                 // Ouvrir une nouvelle fenêtre avec le CV
                                 window.open(lienCV, '_blank');
@@ -305,17 +321,36 @@
             <div id="e4-section" class="content-section">
                 <h1 id="e4">Epreuve E4</h1>
                 <br><br>
-                <p id="texte4"> Sur cette section vous trouverez les documents de l'épreuve E4. <br><br>Veuillez consultez ma fiche E4 ci-dessous:</p>
-                    <button class= "boutonimprimere4" onclick="ouvrire4()">Fiche E4</button>
+                <h1 id="textee4"> Sur cette section vous trouverez les documents concernant l'épreuve E4. </h1>
+                    
+                    <br><br>
+                    
+                <p id="textee4synt">- Veuillez consultez ma fiche E4 ci-dessous:</p>
+                    <button class= "boutonimprimere4synt" onclick="ouvrire4synt()">Fiche E4</button>
                     <script>
-                    function ouvrire4() {
+                    function ouvrire4synt() {
                         // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
-                        var liene4 = 'synthèseE4-Tourab.pdf';
+                        var liene4synt = 'E4synthèse-Tourab.pdf';
 
                         // Ouvrir une nouvelle fenêtre avec le CV
-                        window.open(liene4, '_blank');
+                        window.open(liene4synt, '_blank');
                     }
                     </script>
+
+                <br><br>       
+
+                <p id="textee4comp">- Veuillez consultez la Grille des Compétences ci-dessous:</p>
+                <button class= "boutonimprimere4comp" onclick="ouvrire4comp()">Grille des Compétences</button>
+                <script>
+                function ouvrire4comp() {
+                    // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                    var liene4comp = 'competences_e4.pdf';
+                
+                    // Ouvrir une nouvelle fenêtre avec le CV
+                    window.open(liene4comp, '_blank');
+                }
+                </script>        
+
             </div>
             
                     
@@ -348,6 +383,5 @@
 </body>
 
 </html>
-
 
 
