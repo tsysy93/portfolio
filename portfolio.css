@@ -49,7 +49,7 @@
 }
 
 .sidebar a:hover {
-    color: #eceef0;
+    color: #da6505;
 }
 
 .sidebar h1 {
@@ -361,6 +361,15 @@
             padding: 10px; /* Marge intérieure de 10 pixels */
             width: 29%; /* Largeur du cadre, ajustez selon vos besoins */
 }
+.contenu-texte .content-section #intro{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+    
+}
+
 
 
 .contenu-texte .content-section #gta{
@@ -368,10 +377,9 @@
     width: 800px;
     font-family: 'Oxygen';
     color:#05060675;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: underline;
     text-decoration-color: rgb(203, 175, 93) ;
-    
     
 }
 
@@ -382,14 +390,23 @@
     font-family: 'Oxygen';
     color:#05060675;
     font-size: 15px;
-    font-style: italic;
+    
 }
 
 
-
-
-
-
+.contenu-texte .content-section #source a {
+    width: 800px;
+    font-family: 'Oxygen';
+    color: #05060675;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: none; /* Enlever le soulignement du lien */
+  }
+  
+  .contenu-texte .content-section #source a:hover {
+    border-bottom: 1px solid rgba(118, 18, 240, 0.849); /* Ajouter une bordure en bas au survol */
+  }
+  
 
 
 .contenu-texte #e4{
@@ -457,11 +474,6 @@
 
 
 
-
-
-
-
-
 .contenu-texte #contact{
     font-family: 'Press Start 2P';
     font-size: 30px;
@@ -470,11 +482,38 @@
 }
 
 .contenu-texte #linkedin {
-    width: 30px;
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+.contenu-texte #github1 {
+    width: 50px;
     height: auto;
     margin-top: 10px;
 }
 
+.contenu-texte #linke {
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.contenu-texte #linke:hover {
+    border-bottom: 1px solid rgba(118, 18, 240, 0.849); /* Ajouter une bordure en bas au survol */
+}
+.contenu-texte #github {
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contenu-texte #github:hover {
+    border-bottom: 1px solid rgba(118, 18, 240, 0.849); /* Ajouter une bordure en bas au survol */
+}
 
 
 footer {
