@@ -35,7 +35,7 @@
 }
 
 .sidebar li {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .sidebar a {
@@ -261,7 +261,12 @@
 }
 
 
-
+.contenu-texte #stage{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(192, 93, 203)
+}
 
 
 
@@ -340,6 +345,13 @@
 }
 
 .contenu-texte .content-section #papa2{
+    margin-left: 10%;
+    width: 800px;
+    font-family: 'Oxygen';
+    color:#05060675;
+    font-size: 20px;
+}
+.contenu-texte .content-section #papa3{
     margin-left: 10%;
     width: 800px;
     font-family: 'Oxygen';

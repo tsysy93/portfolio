@@ -12,7 +12,7 @@
 
     <div class="sidebar" id="sidebar">
         <div class="inner-bar">
-            <h1>SYED ZAIDI Tourab <br> <br>BTS SIO SLAM E4</h1>
+            <h1><br><br><br>SYED ZAIDI Tourab </h1>
             
             
             
@@ -25,7 +25,8 @@
             <li><a href="#competence">Compétences</a></li>
             <li><a href="#projets">Projets</a></li>
             <li><a href="#veille">Veille</a></li>
-            <li><a href="#e4">Epreuve E4</a></li>
+            <li><a href="#stage">Stages</a></li>
+            <li><a href="#e4">Epreuve E4 & E5</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="#top" id="scrollToTopBtn">▲</a></li>
         </ul>
@@ -60,7 +61,7 @@
                     <button class= "boutonimprimer" onclick="ouvrirCV()">Curriculum Vitae</button>
                 <script>
                     function ouvrirCV() {
-                        // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                        
                         var lienCV = 'TourabCV.pdf';
             
                         // Ouvrir une nouvelle fenêtre avec le CV
@@ -146,7 +147,7 @@
                         
                         <script>
                             function ouvrirp1() {
-                                // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                                
                                 var lienCV = 'Calculatrice-en-C.pdf';
                     
                                 // Ouvrir une nouvelle fenêtre avec le CV
@@ -167,7 +168,7 @@
                         
                         <script>
                             function ouvrirp2() {
-                                // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                                
                                 var lienCV = 'creation-portfolio.pdf';
                     
                                 // Ouvrir une nouvelle fenêtre avec le CV
@@ -186,7 +187,7 @@
                         
                         <script>
                             function ouvrirp3() {
-                                // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                                
                                 var lienCV = 'fail2ban.pdf';
                     
                                 // Ouvrir une nouvelle fenêtre avec le CV
@@ -206,7 +207,7 @@
                         
                         <script>
                             function ouvrirp4() {
-                                // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                                
                                 var lienCV = 'tp-seven.pdf';
                     
                                 // Ouvrir une nouvelle fenêtre avec le CV
@@ -214,7 +215,7 @@
                             }
                         </script>
                     </div>
-                    <div class="card" style="width: 15rem;">
+                    <!--<div class="card" style="width: 15rem;">
                         <img class="card5" src="audit.jpg" alt="Audit">
                         <br><br>
                         <button id= "boutonimprimerp5" onclick="ouvrirp5()">Stage 1er année</button>     
@@ -229,8 +230,8 @@
                                 // Ouvrir une nouvelle fenêtre avec le CV
                                 window.open(lienCV, '_blank');
                             }
-                        </script>
-                </div>
+                        </script>-->
+                </div> 
                                             
                     
             </div>
@@ -242,19 +243,59 @@
             
             
             
-            
-            
-            
+             <div id="stage-section" class="content-section">
+                <h1 id="stage">Stages</h1>
+                <br><br>
+                
+                
+                <div class="cartes-container" style="display: flex; gap: 40px;  flex-wrap: wrap;">
+                    
+                    <!-- Première carte -->
+                    <div class="card" style="width: 15rem;">
+                        <img class="card1" src="calculatrice.png" alt="calculatrice">
+                        <div class="card-body">
+                        <button id= "boutonimprimerp1" onclick="ouvrirs1()">Stage de 1er année BTS</button>        
+                        </div>
+                        
+                        <script>
+                            function ouvrirs1() {
+                                
+                                var lienCV = 'audit-stage.pdf';
+                    
+                                // Ouvrir une nouvelle fenêtre avec le CV
+                                window.open(lienCV, '_blank');
+                            }
+                        </script>
+                    </div>
+
+                    <div class="card" style="width: 15rem;">
+                        <img class="card1" src="calculatrice.png" alt="calculatrice">
+                        <div class="card-body">
+                        <button id= "boutonimprimerp1" onclick="ouvrirs2()">Stage de 2e année BTS</button>        
+                        </div>
+                        
+                        <script>
+                            function ouvrirs2() {
+                                
+                                var lienCV = 'Calculatrice-en-C.pdf';
+                    
+                                // Ouvrir une nouvelle fenêtre avec le CV
+                                window.open(lienCV, '_blank');
+                            }
+                        </script>
+                    </div>
+                </div>           
+            <br><br><br>
             
             
             <div id="veille-section" class="content-section">
                 <h1 id="veille">Veille</h1>
-                <br><br>
-                <h1 id="titreveille"> Tuto Veille Technologique:</h1>
+                <br>
+                
                 <br>
                 <h1 id="veu"> La veille technologique désigne le processus de surveillance, de collecte, d'analyse et de diffusion d'informations liées aux évolutions, aux avancées et aux tendances dans le domaine des technologies, de l'innovation et de l'industrie.</h1>
                 <br><br>
-                <p id="veilleg"> Il est très important de se mettre à jour sans faire de jeux de mots... <br><br>En effet, nous pouvons être les plus brillants aujourd'hui, mais demain nous pouvons devenir facilement obsolètes
+                <p id="veilleg"> En effet, nous pouvons être les plus brillants aujourd'hui, mais demain nous pouvons devenir facilement obsolètes
                     si nous n'apprenons pas de nouvelles technologies régulièrement... <br> <br> C'est pourquoi j'ai choisis d'utiliser Google Alertes! <br><br> </p>
                 <p>
                     
@@ -291,7 +332,15 @@
                             
                 <div class="collapse" id="collapseExample">
                     <div id= "papa2" class="card card-body">
-                                  Etape 3: Mise à jour terminer vous êtes à 100% !
+                                  Etape 3: Vous n'avez plus qu'à attendre un mail !
+                                  <br><br>
+                                  <a href="alerte.png"><img id="imagev" src="alerte.png"></a>
+                    </div>
+
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div id= "papa3" class="card card-body">
+                                  Voici un exemple d'un mail:
                                   <br><br>
                                   <a href="alerte.png"><img id="imagev" src="alerte.png"></a>
                     </div>
@@ -337,17 +386,17 @@
             
             
             <div id="e4-section" class="content-section">
-                <h1 id="e4">Epreuve E4</h1>
+                <h1 id="e4">Epreuve E4 & E5</h1>
                 <br><br>
-                <h1 id="textee4"> Sur cette section vous trouverez les documents concernant l'épreuve E4. </h1>
+                <h1 id="textee4"> Sur cette section vous trouverez les documents concernant les épreuves de E4 et de E5. </h1>
                     
                     <br><br>
                     
-                <p id="textee4synt">- Veuillez consultez ma fiche E4 ci-dessous:</p>
+                <p id="textee4synt">- Veuillez consultez ma fiche de synthèse E4 ci-dessous:</p>
                     <button class= "boutonimprimere4synt" onclick="ouvrire4synt()">Fiche E4</button>
                     <script>
                     function ouvrire4synt() {
-                        // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                        
                         var liene4synt = 'E4synthèse-Tourab.pdf';
 
                         // Ouvrir une nouvelle fenêtre avec le CV
@@ -355,26 +404,37 @@
                     }
                     </script>
 
-                <br><br>       
+                <br><br><br>
 
-                <p id="textee4comp">- Veuillez consultez la Grille des Compétences ci-dessous:</p>
-                <button class= "boutonimprimere4comp" onclick="ouvrire4comp()">Grille des Compétences</button>
+                <p id="textee4comp">- Veuillez consultez les fiches professionnelles pour l'épreuve E5 ci-dessous:</p>
+                
+                <button class= "boutonimprimere4comp" onclick="ouvrire4comp()">Personel</button>
                 <script>
                 function ouvrire4comp() {
-                    // Remplacez 'lien_vers_votre_cv.pdf' par le chemin vers votre CV
+                    
                     var liene4comp = 'competences_e4.pdf';
                 
                     // Ouvrir une nouvelle fenêtre avec le CV
                     window.open(liene4comp, '_blank');
                 }
-                </script>        
-
+                </script>
+                <br> <br>
+                <button class= "boutonimprimere4comp" onclick="ouvrire4comp()">Parking</button>        
+                <script>
+                    function ouvrire4comp() {
+                        
+                        var liene4comp = 'competences_e4.pdf';
+                    
+                        // Ouvrir une nouvelle fenêtre avec le CV
+                        window.open(liene4comp, '_blank');
+                    }
+                    </script>    
             </div>
             
                     
             
             
-            <br><br><br><br><br>
+            <br><br><br>
             
 
 
